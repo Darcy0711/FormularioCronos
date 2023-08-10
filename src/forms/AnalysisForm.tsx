@@ -1,6 +1,6 @@
 
 import { useForm } from 'react-hook-form';
-import { AnalysisForm as analysisFormZod , AnalysisFormSchema } from '../schemas/FormSchemas'
+import { AnalysisForm as analysisFormZod , AnalysisFormSchema } from '../schemas/Analysis/AnalysisSchemas'
 import { zodResolver } from '@hookform/resolvers/zod';
 
 interface AnalysisProps {

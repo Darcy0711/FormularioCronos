@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useForm } from 'react-hook-form';
-import { CharacterizationForm as characterizationFormZod, CharacterizationFormSchema } from '../schemas/FormSchemas'
+import { CharacterizationForm as characterizationFormZod, CharacterizationFormSchema } from '../schemas/Characterization/CharacterizationSchemas'
 import { zodResolver } from '@hookform/resolvers/zod';
 
 

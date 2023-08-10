@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ModalSend } from '../components/ModalSend'
 import { zodResolver } from "@hookform/resolvers/zod";
-import { ProcessForm as processFormZod,ProcessFormSchema} from '../schemas/FormSchemas'
+import { ProcessForm as processFormZod,ProcessFormSchema} from '../schemas/Process/ProcessSchemas'
 import { useForm } from "react-hook-form";
 
 
